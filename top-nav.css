@@ -1,0 +1,60 @@
+a {
+    text-decoration: none;
+}
+
+.clearf:after,
+.clearf:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.top-nav {
+    width: 100%;
+    background: #333;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 1226px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+
+}
+
+.top-nav a {
+    color: #b0b0b0;
+}
+
+.sep {
+    margin: 0 2px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.item-cart {
+    float: right;
+    width: 120px;
+    margin-left: 30px;
+    text-align: center;
+    background: #424242;
+
+}
+.item-cart a{
+    display: inline-block;
+    width: 120px;
+
+}
+
+.item-cart a:hover{
+    background-color: #fdffff;
+    color: #ff532e;
+}
